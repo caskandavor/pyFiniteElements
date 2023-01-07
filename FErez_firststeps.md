@@ -1,9 +1,9 @@
 # Create the machine
 This app is concerned with electric motor design. You need to start with **Winding layout**, in order to setup the pole-slot configuration. You can't yet change the number of phases (fixed to 3) so the number of slot is a multiple of 3. The number of rotor poles is a multiple of two, as they work in pairs (North and South poles). To go on, *save* the configuration, which will show you:
-            - the [star of slots](https://api.semanticscholar.org/CorpusID:109340999), colored by phase
-            - the winding layout as in [Emetor](https://www.emetor.com/windings/)
-            - the [winding factor](https://en.wikipedia.org/wiki/Winding_factor)
-            - the shape of the [MMF](https://en.wikipedia.org/wiki/Magnetomotive_force)
+- the [star of slots](https://api.semanticscholar.org/CorpusID:109340999), colored by phase
+- the winding layout as in [Emetor](https://www.emetor.com/windings/)
+- the [winding factor](https://en.wikipedia.org/wiki/Winding_factor)
+- the shape of the [MMF](https://en.wikipedia.org/wiki/Magnetomotive_force)
             
 The next is to create the **Geometry**. You can choose between external or internal rotor, different types of slots and poles shapes, if you want to model the shaft, if you want to have a slotless, coreless or yokeless machine, and change the magnet magnetization. More geometries will be added in the future, so be patient. In this section, you must be very careful with the inputs, as a wrong geometry (intersecting lines) is not always caught, which makes the Triangle mesher crash, hence the entire app. In order to help you, a geometry debugger is provided right under the images. It's better to always use it when you are unsure (unless you already used these parameters and you know it's going to work). If you are looking for the units, they are in the **Configuration** section. Anyways, you must use the *Mesh* button to be able to go on, which will show you the meshed geometry. You can turn the rotor to ensure everything works fine.
             
