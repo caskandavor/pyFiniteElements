@@ -1,3 +1,6 @@
+# First steps in FErez
+v1.0. This document was written on Sun. 8 Jan 2023 in Markdown, to support the use and understanding of the app [FErez](https://apps.apple.com/ch/app/ferez/id1626613231?l=en).
+
 # Create the machine
 This app is concerned with electric motor design. You need to start with **Winding layout**, in order to setup the pole-slot configuration. You can't yet change the number of phases (fixed to 3) so the number of slots is a multiple of 3. The number of rotor poles is a multiple of two, as they work in pairs (North and South poles). To go on, *save* the configuration, which will show you:
 - the [star of slots](https://api.semanticscholar.org/CorpusID:109340999), coloured by phase
