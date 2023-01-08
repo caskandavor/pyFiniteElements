@@ -15,6 +15,7 @@ At this phase, you can save your geometry using **File management**. In this sec
 - Save
 - Load
 - Delete
+
 You need to input the *File name* anytime you wish to use a button, except *Refresh* that needs to be used anytime you open this section. The local path to where the geometry files (.txt) are placed is given, in case you want to back-up.
 
 # Electromagnetics
